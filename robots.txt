@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Tylerli-CL.github.io/al-folio/sitemap.xml
+Sitemap: https://Tylerli-CL.github.io/sitemap.xml
