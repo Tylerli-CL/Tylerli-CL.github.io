@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tylerli.github.io/sitemap.xml
+Sitemap: https://tylerli-cl.github.io/sitemap.xml
