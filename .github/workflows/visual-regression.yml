@@ -1,0 +1,41 @@
+name: Personal site browser checks
+
+on:
+  pull_request:
+    branches: [master, main]
+  push:
+    branches: [master, main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  browser-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - run: npm ci
+      - run: sudo apt-get update && sudo apt-get install -y imagemagick
+      - run: npx playwright install --with-deps chromium
+      - name: Check personal pages and capture screenshots
+        run: npm run test:visual
+        env:
+          JEKYLL_ENV: production
+      - name: Upload screenshots and diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: personal-site-browser-results
+          path: |
+            output/playwright/migration/
+            test-results/

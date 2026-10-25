@@ -1,0 +1,22 @@
+{
+  "baseline": "547b9aea3356c3370617e8d6f4fde6fde3ddca31",
+  "files": {
+    "_config.yml": "3c201de021cd6575adfe5bc32a08b8d893730d6b00fb805a75e3a81913a7707c",
+    "_pages/about.md": "e121caa2a1fb51ad389d5a2e3bcdc1e82f9218586ae0a3aaac6988710b9e3074",
+    "_pages/news.md": "fd08dacdb1720025b3f3d77af67ad96938ad8c5b22e1d619c54d336f9fc4a4c3",
+    "_pages/404.md": "1f97486dc454df31e568c05e8f0b81562148d9412deba040027d246bd899d77f",
+    "_news/announcement_1.md": "3167cbdfe7ac21623bde614ee85607338c70f9eaf791a0166fe4cc0527426247",
+    "_data/repositories.yml": "943571d0acd703a9014e49920e2b3f5d3a0ea81a13b792e33b5642204b45393a",
+    "assets/img/prof_pic_li.jpg": "3cc275e7a03a23685965826d253ce805ad8b82ef7da423f61b9e9e3dc0a36c20"
+  },
+  "settings": {
+    "analytics": "disabled; retain ID G-EMCYE4Y82X as inactive record",
+    "rss": false,
+    "selected_papers": false,
+    "latest_posts": false,
+    "last_updated": true,
+    "footer_text": "",
+    "style": "official latest stable",
+    "demo_content": "remove"
+  }
+}

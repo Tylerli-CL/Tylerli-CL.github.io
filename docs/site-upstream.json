@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/alshedivat/al-folio",
+  "tag": "v1.2",
+  "commit": "b95d6d61a1b0663529094b1b5f4fbe8aa41f8a04",
+  "previous_site_commit": "547b9aea3356c3370617e8d6f4fde6fde3ddca31",
+  "local_theme_overrides": ["assets/css/main.scss"],
+  "removed_upstream_workflows": [
+    "broken-links.yml",
+    "copilot-setup-steps.yml",
+    "deploy-docker-tag.yml",
+    "deploy-image.yml",
+    "docker-slim.yml",
+    "lighthouse-badger.yml",
+    "prettier-comment-on-pr.yml",
+    "prettier-html.yml",
+    "release.yml",
+    "render-cv.yml",
+    "schedule-posts.txt",
+    "star-history.yml",
+    "update-citations.yml",
+    "update-screenshots.yml",
+    "update-tocs.yml"
+  ]
+}
